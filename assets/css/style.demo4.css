@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+a { 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+ul li a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.top-notice {
+    background-color: #2ca326;
+}
+.fa-bars {
+    color: #2ca326;
+}
+.header-bottom {
+    background-color:  #75d170;
+}
+.header-bottom.sticky-header {
+    background-color:  #75d170;
+}
+.menu li a {
+    color: #FFF;
+}
+.main-nav ul li.active a,
+.main-nav ul li:hover a {
+    color: #545456;
+}
+.menu .active {
+    color: #545456;
+}
+.sub-ul li a {
+    color: #545456;
+}
+.section-title {
+    font-size: 35px;
+}
+.section-title.heading-border {
+    font-size: 30px;
+}
+
+/* Phone */
+@media screen and (max-width: 767.98px){
+    .header-top{
+        padding: 2px;
+    }
+    #message1 {
+        font-size: 7px;
+    }
+    #message2 {
+        font-size: 7px;
+    }
+    .wsp-nr {
+        text-align: end;
+        font-size: 7px;
+    }
+    .section-title {
+        font-size: 5px;
+    }
+}

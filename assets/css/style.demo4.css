@@ -20,6 +20,14 @@ ul li a {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
+.header-top {
+    background-color: #494949;
+    color: #FFF;
+}
+.header-middle.sticky-header, .header-middle.sticky-header i {
+    background-color: #545456;
+    color: #FFF;
+}
 .top-notice {
     background-color: #2ca326;
 }
@@ -30,7 +38,7 @@ ul li a {
     background-color:  #75d170;
 }
 .header-bottom.sticky-header {
-    background-color:  #75d170;
+    background-color:  #38d430;
 }
 .menu li a {
     color: #FFF;
@@ -51,9 +59,105 @@ ul li a {
 .section-title.heading-border {
     font-size: 30px;
 }
+.testimonials-section {
+    margin: 0 15px;
+    border-radius: 20px;
+    background-color:  #86de7e;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial {
+    background-color: #FFF;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial a {
+    color: #545456;
+}
+blockquote::before {
+    color: #2ca326;
+}
+.testimonials-section h2 {
+    color: #2a5c28;
+}
+.recetas a {
+    background-color: #959150;
+    color: #FFF;
+}
+.recetas h3 {
+    color: #605e2f;
+}
+.educacion a {
+    background-color: #545c9a;
+    color: #FFF;
+}
+.educacion h3 {
+    color: #24294c;
+}
+.blog a {
+    background-color: #a26f34;
+    color: #FFF;
+}
+.blog h3 {
+    color: #7b4b14;
+}
+.product-default:hover .product-action .btn-add-cart {
+    background-color: #2ca326;
+    border: none;
+}
+.product-default .product-action .btn-add-cart {
+    background-color: #d8d8d8;
+}
+.featured-products-section {
+    background-color: #eeeeee;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
 
+/* BOTON FLOTANTE */
+.button {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 9999;
+}
+.button .button-img {
+    border-radius: 120px;
+    background-color: #2ca326;
+    border: none;
+    text-align: center;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+    padding: 10px;
+}
+.button img {
+    height: 30px;
+    width: 30px;
+}
+#scroll-top {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+}
+.dropdown-cart-action .btn-dark {
+    background-color: #2ca326;
+}
+.dropdownmenu-wrapper.custom-scrollbar {
+    background-color: #f6f6f6;    
+}
+.dropdown-menu.mobile-cart {
+    padding: 0;
+}
+.sticky-navbar {
+    background-color: #2ca326;
+}
+.popup b {
+    color: #2a5c28;
+}
+.newsletter-popup input[type="submit"]{
+    background-color: #2ca326;
+}
 /* Phone */
-@media screen and (max-width: 767.98px){
+@media screen and (max-width: 576px){
     .header-top{
         padding: 2px;
     }
@@ -67,7 +171,16 @@ ul li a {
         text-align: end;
         font-size: 7px;
     }
-    .section-title {
-        font-size: 5px;
+    .new-products-section  .section-title {
+        font-size: 15px;
+    }
+    .section-title.heading-border {
+        font-size: 20px;
+    }
+    .button {
+        position: fixed;
+        bottom: 55px;
+        right: 15px;
+        z-index: 9999;
     }
 }
